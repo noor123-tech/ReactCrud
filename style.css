@@ -1,0 +1,161 @@
+
+
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:50;
+}
+#navbar{
+
+
+display:flex;
+justify-content: space-between;
+margin-bottom: 40px;
+}
+#leftportion input{
+    height:37px;
+margin-top:-1px;
+width:23%;
+outline:none;
+}
+#leftportion{
+    
+    width:100%;
+    height:50px;
+    margin-top: 10px;
+}
+#leftportion button{
+    background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    height:37px;
+    font-size: 16px;
+    text-decoration: none;
+    width: 10%;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    
+    touch-action: manipulation;
+}
+#leftportion button:hover {
+    background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+  }
+ #portion button {
+    width:180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: black;
+    background-color: #e0e8ef;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: rgba(255, 255, 255, 0.333);
+    border-radius: 40px 40px 40px 40px;
+    padding: 16px 24px 16px 28px;
+    transform: translate(0px, 0px) rotate(0deg);
+    transition: 0.2s;
+    box-shadow: -4px -2px 16px 0px #ffffff, 4px 2px 16px 0px rgb(95 157 231 / 48%);
+   }
+   
+  #portion button:hover {
+    color: #516d91;
+    background-color: #E5EDF5;
+    box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgb(95 157 231 / 48%);
+   }
+   
+  #portion button:active {
+    box-shadow: none;
+   }
+#table{
+    
+    width:100%;
+  border-collapse:collapse;
+  font-family: Helvetica, sans-serif;
+}
+#table thead{
+    display: block;
+    background-color:black;
+
+}
+#table thead tr{
+    background-color: black;
+}
+#table th, #table td {
+    border: 2px solid grey;
+    height: 50px;
+    text-align: center;
+   width:20%;
+}
+
+#table td a {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px; /* Add margin to the left and right of the anchor tags */
+}
+
+#butns button{
+    width:10px;
+    
+}
+
+
+#submitBtn:hover{
+    background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+
+    background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+
+}
+#cancelbtn:hover{
+    box-shadow: rgb(121, 18, 55) 0px 0px 0px 0px;
+    background-color: rgb(230, 34, 77);
+
+}
+#form {
+    display: none;
+    justify-content: space-around; /* Distribute items evenly with space around them */
+
+     height:60px; 
+  
+}
+.form-group{
+  
+    width:25%;
+    
+  
+}  
+.form-group input{
+    width:100%;
+    height: 70%;
+    outline:none;
+    border:none;
+   
+}
+#form button{
+   
+    width:40%;
+    height: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.form-group p{
+    color: red;
+    margin:0;
+}
+
+
+   
+    

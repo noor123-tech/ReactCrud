@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>employees data</title>
+    <link href="new.css" rel="stylesheet">
+    <script src="functionality.js"></script>
+    <script src="https://kit.fontawesome.com/1706018765.js" crossorigin="anonymous"></script>
+</head>
+<body>
+</body>
+<div id="navbar">
+      <div id="leftportion">
+<input type="text" id="inp" placeholder="Enter name ">
+<button type="button" id="btnn1" onclick="searchword()">Search</button>
+      </div>
+     
+    <div id="portion">
+            <button type="button" onclick="formpage()" id="btnn2"> ADD</button>
+    </div>
+
+</div>
+<!--this is our navbar-->
+<div id="form">
+    <div class="form-group">
+        <input type="text" id="nameInput" placeholder="Enter your name" onclick="focusname()">
+        <p id="nameError" style="display: none;">This field is Empty</p>
+    </div>
+    <div class="form-group"><input type="email" id="emailInput" placeholder="Email" onclick="focusemail()">
+    <p id="emailError" style="display: none;">This field is Empty</p>
+    </div>
+    <div class="form-group"><input type="text" id="usernameInput" placeholder="Enter username" onclick="focususername()">
+        <p id="usernameError" style="display: none;">This field is Empty</p>
+    </div>
+    <div class="form-group"><input type="text" id="phoneInput" placeholder="Phone" onclick="focusphone()">
+        <p id="phoneError" style="display: none;">This field is Empty</p>
+    </div>
+    <div class="form-group">
+    <button type="button" id="submitBtn" onclick="submitfunc()">Submit</button>
+    <button type="button" id="cancelbtn" onclick="cancel()"> CANCEL</button>
+    </div>
+</div>
+        <!--this form add when i click on add in the same place and way-->
+
+<table id="table">
+    <thead id="hh">
+        <!--this form add when i click on add in the same place and way-->
+      
+    
+     
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Username</th>
+        <th>Phone</th>
+        <th>Action</th>
+        <!----->
+      
+    </tr>
+  
+    </thead>
+    <!---render data here-->
+  <tbody id="put">
+   
+ 
+</td>
+    </tbody>
+</table>
+
+
+
+</body>
+</html>
